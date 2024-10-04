@@ -20,3 +20,12 @@ function clock(){
 
 // initial call
 clock();
+
+// set interval that we dont need to reload the page time will be updated automatically
+setInterval(
+    () =>{
+        clock()
+    },
+    1000
+    // after 1 second time will be change 
+)
