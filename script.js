@@ -17,3 +17,6 @@ function clock(){
     inputs[2].value = Math.floor(diff/60)%60;   //convert into minutes
     inputs[3].value = Math.floor(diff)%60;      //convert into seconds 
 }
+
+// initial call
+clock();
